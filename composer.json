@@ -1,0 +1,23 @@
+{
+    "name": "ericye/orangephp",
+    "description": "一个简单的PHP框架",
+    "license": "0.1",
+    "authors": [
+        {
+            "name": "叶文龙",
+            "email": "ywlcnll@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "autoload":{
+        "classmap":["system/","app/","config/"]
+    },
+    "require": {
+        "php":">=5.3.0",
+        "illuminate/database": "*"
+    },
+    "repositories": [
+        {"type": "composer", "url": "http://pkg.phpcomposer.com/repo/packagist/"},
+        {"packagist": false}
+    ]
+}
