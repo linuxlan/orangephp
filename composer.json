@@ -10,7 +10,10 @@
     ],
     "minimum-stability": "beta",
     "autoload":{
-        "classmap":["system/","app/","config/"]
+        "classmap":["system/"],
+        "psr-4" :{
+            "app\\":"app/"
+        }
     },
     "require": {
         "php":">=5.3.0",
